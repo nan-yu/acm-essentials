@@ -2,6 +2,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: pi
+  namespace: gatekeeper-system
 spec:
   template:
     spec:
